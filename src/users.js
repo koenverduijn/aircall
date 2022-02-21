@@ -69,7 +69,7 @@ async function aircallAPI(method,object,body,identifier) {
 const test = randomString();
 /* ping
 aircallAPI('GET','ping');
-/* users */
+/* users
 aircallAPI('GET','users');
 /* users availabilities
 aircallAPI('GET','users/availabilities');

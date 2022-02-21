@@ -11,12 +11,12 @@ id,direct_link,name,email,available,availability_status,created_at,time_zone,lan
 409289,https://api.aircall.io/v1/users/409289,Eddie MBANI,eddie+demo@aircall.io,false,custom,2020-05-12T13:15:15.000Z,Etc/UTC,en-US,0
 505198,https://api.aircall.io/v1/users/505198,Brian Gallagher,bgallagher+demo@hubspot.com,false,unavailable,2020-11-24T15:32:59.000Z,Etc/UTC,en-US,0
 528587,https://api.aircall.io/v1/users/528587,Johann Demp,johann+demo1@aircall.io,false,available,2021-01-12T07:51:04.000Z,Etc/UTC,en-US,0
-530103,https://api.aircall.io/v1/users/530103,Martin Dizon Demo,martin.dizon+demo@aircall.io,false,available,2021-01-14T10:49:57.000Z,Europe/Paris,en-US,0
-550107,https://api.aircall.io/v1/users/550107,Martin DDizon,martin.dizon+demo2@aircall.io,false,available,2021-02-17T11:15:06.000Z,Etc/UTC,en-US,0
-550152,https://api.aircall.io/v1/users/550152,Martin DDDizon,martin.dizon+demo3@aircall.io,false,available,2021-02-17T13:53:52.000Z,Etc/UTC,en-US,0
+530103,https://api.aircall.io/v1/users/530103,Martin Dizon Demo,martin.dizon+demo@aircall.io,true,available,2021-01-14T10:49:57.000Z,Europe/Paris,en-US,0
+550107,https://api.aircall.io/v1/users/550107,Martin DDizon,martin.dizon+demo2@aircall.io,true,available,2021-02-17T11:15:06.000Z,Etc/UTC,en-US,0
+550152,https://api.aircall.io/v1/users/550152,Martin DDDizon,martin.dizon+demo3@aircall.io,true,available,2021-02-17T13:53:52.000Z,Etc/UTC,en-US,0
 599798,https://api.aircall.io/v1/users/599798,Matt Test Demo,matt+test123@aircall.io,false,available,2021-06-03T15:22:36.000Z,Etc/UTC,en-US,0
 620938,https://api.aircall.io/v1/users/620938,Rory MacPherson,rory+3@aircall.io,false,available,2021-07-19T09:35:04.000Z,Etc/UTC,en-US,0
-632456,https://api.aircall.io/v1/users/632456,se  demo,hiba.regaya+sedemo@aircall.io,false,available,2021-08-12T16:15:50.000Z,Europe/Paris,en-US,0
+632456,https://api.aircall.io/v1/users/632456,se  demo,hiba.regaya+sedemo@aircall.io,true,available,2021-08-12T16:15:50.000Z,Europe/Paris,en-US,0
 632457,https://api.aircall.io/v1/users/632457,Patrick Penna 009,patrick.penna+sedemo@aircall.io,true,available,2021-08-12T16:16:50.000Z,America/Sao_Paulo,en-US,5
 632833,https://api.aircall.io/v1/users/632833,Patrick Penna 010,patrick.penna+sedemo1@aircall.io,false,available,2021-08-13T12:42:31.000Z,Etc/UTC,en-US,0
 632834,https://api.aircall.io/v1/users/632834,Patrick Penna 011,patrick.penna+sedemo2@aircall.io,false,available,2021-08-13T12:43:24.000Z,Etc/UTC,en-US,0
