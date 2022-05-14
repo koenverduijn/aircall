@@ -1,0 +1,83 @@
+.header {
+  height: 7vh;
+}
+.parameters {
+  width: 40vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 4vw 3vw 3vw 8vw 3vw 8vw;
+  grid-template-rows: 3vh 3vh;
+  justify-items: center;
+  align-items: center;
+}
+.parameters p {
+  height: 1vh;
+  width: auto;
+}
+.header h1 {
+  width: 60vw;
+  height: 7vh;
+}
+
+.resultsPerPage input {
+  width: 3vw;
+}
+.result {
+  min-height: 60vh;
+}
+.results {
+  display: grid;
+  grid-template-columns: 2vw 4vw 9vw 9vw 3vw 7vw 7vw 7vw 3vw;
+  grid-auto-flow: row;
+  height: auto;
+  min-height: 60vh;
+  width: 55vw;
+  justify-items: center;
+  align-items: center;
+}
+.results p {
+  height: 1vh;
+  width: auto;
+}
+select {
+  height: 2vh;
+  max-width: 10vw;
+  font-size: 0.8vh;
+}
+input[type='checkbox'] {
+  width: 1vw;
+}
+input[type='text'] {
+  max-width: 10vw;
+}
+.operationButtons {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.33fr 1fr 0.33fr 1fr 0.33fr 1fr 0.5fr;
+  width: 55vw;
+  height: 4vh;
+}
+.create {
+  width: 30vw;
+  display: grid;
+  justify-items: center;
+}
+.createForm {
+  width: 20vw;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 8vw 12vw;
+  grid-template-rows: repeat(7,3vh);
+  align-items: center;
+  justify-items: center;
+}
+.createForm p {
+  height: 1vh;
+  width: auto;
+}
+.createForm label {
+  width: 8vw;
+  line-height: 1vh;
+  display: grid;
+  align-items: center;
+  justify-items: left;
+}

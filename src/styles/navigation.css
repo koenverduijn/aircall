@@ -1,0 +1,86 @@
+nav {
+  position: fixed;
+  inset: 5vh auto 0 0;
+  width: 15vw;
+  height: 100%;
+  border-right: 1px solid #d9d9d6;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.tabs {
+  position: absolute;
+  height: 95vh;
+  text-align: left;
+}
+.servicesTab,.apiTab,.webhookTab {
+  position:relative;
+  display: inline-flex;
+  align-items: center;
+  height: 2.5vh;
+  width: 15vw;
+  color: #74787d;
+}
+.apiMethod {
+  position: relative;
+  align-items: center;
+  width: 15vw;
+  height: auto;
+}
+.apiMethodItem {
+  position: relative;
+  height: 2.5vh;
+  width: 15vw;
+  display: inline-flex;
+  align-items: center;
+}
+.servicesTab:hover,.apiTab:hover,.webhookTab:hover,.apiMethodItem:hover {
+  background-color: #e8e8e6;
+  color:black;
+  cursor: pointer;
+}
+.servicesTab img,.apiTab img,.webhookTab img {
+  position: absolute;
+  left: 1vw;
+  width: 1.5vh;
+  height:2.5vh;
+}
+.servicesTab p, .apiTab p,.webhookTab p,.apiMethod a {
+  position: absolute;
+  left: 3vw;
+  width: 12vw;
+  height: 1.5vh;
+}
+.apiMethodItem p {
+  left: 3vw;
+  width: 15vw;
+  font-size: 0.9vh;
+  text-align: left;
+}
+.toggles {
+  position: fixed;
+  height: 10vh;
+  width: 15vw;
+  top: 90vh;
+  left:0;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.toggleRow {
+  position: relative;
+  display: inline-flex;
+  height: 3vh;
+  align-items: center;
+}
+.toggleItem {
+  position: relative;
+  left: 1vw;
+  text-align: right;
+  height: 2vh;
+  width: 8vw;
+}
+.toggle {
+  left: 3vw;
+}

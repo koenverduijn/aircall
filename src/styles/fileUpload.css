@@ -1,0 +1,51 @@
+.uploadFile {
+  display: grid;
+  grid-template-columns: 2fr 1fr 6fr;
+  grid-template-rows: 4vh;
+  justify-items: right;
+  align-items: center;
+  cursor: pointer;
+  height: 4vh;
+}
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+.fileIcon {
+  height: 3vh;
+  width: 2vw;
+}
+.fileDetails {
+  height: 4vh;
+  width: 100%;
+  overflow: visible;
+  text-align: left;
+  align-items: center;
+}
+.fileDetails label {
+  height: 4vh;
+  margin: auto;
+  cursor: pointer;
+  width: 100%;
+}
+.fileDetails p {
+  width: 10vw;
+  line-height: 1vh;
+  font-size: 0.9vh;
+}
+.fileText {
+  display: flex;
+  height: 4vh;
+  align-items: center;
+}
+.fileText p {
+  height: 1vh;
+  width: 80%;
+  line-height: 0.5vh;
+  font-size: 0.9vh;
+}
+.fileStats {
+  display: block;
+}

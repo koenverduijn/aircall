@@ -1,0 +1,15 @@
+{
+  "short_name": "Aircall SE",
+  "name": "Aircall Solutions Engineer Web Application",
+  "icons": [
+    {
+      "src": "aircall_iconA_green_rgb.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

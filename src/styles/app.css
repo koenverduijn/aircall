@@ -1,0 +1,72 @@
+* {    
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
+  --color-basic: #F1FEFB;
+  --color-basic-grey: #F1F3F8;
+  --color-accent: #00B388;
+  --color-accent-low: #C9EDE4;
+  --color-accent-high: #019370;
+}
+h4 {
+  height: 2vh;
+  font-size: 0.8vw;
+  color: black;
+  text-align: left;
+  display: inline;
+}
+label {
+  display: block;
+  float: left; /* makes the element act like inline block */
+  clear: left; /* clears any left floats so before so this should start on new line */
+  font-size: 0.7vh;
+  line-height: 0.7vh;
+}
+input {
+  display: block;
+  font-size: 0.7vh;
+  height: 2vh;
+  width: 80%;
+  color: #74787d;
+}
+input[type="file"] {
+  display: none;
+}
+button {
+  border: none;
+  height: 2.5vh;
+  width: 10vw;
+  color: #74787d;
+  background-color: var(--color-basic-grey);
+  font-size: 1vh;
+  border-radius: 12%;
+}
+button:hover {
+  background-color: var(--color-accent);
+  color: white;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+}
+tr {
+  display: flex;
+}
+p {
+  font-size: 0.8vw;
+  color: #74787d;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  font-size: 0;
+  color: #74787d;
+}
+li {
+  color: #74787d;
+}
+a:link{
+  text-decoration: none;
+}

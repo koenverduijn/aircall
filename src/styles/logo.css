@@ -1,0 +1,19 @@
+.logoDiv {
+  position: fixed;
+  inset: 0 auto auto 0;
+  width: 15vw;
+  height: 5vh;
+  border-right: 1px solid #d9d9d6;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  z-index: 3;
+  background-color: white;
+}
+.logoDiv h4 {
+  font-size: 1vw;
+  height: 1.5vh;
+}
+.logoDiv img {
+  width: 1.5vh;
+}

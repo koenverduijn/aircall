@@ -1,0 +1,36 @@
+id,direct_link,name,email,available,availability_status,created_at,time_zone,language,wrap_up_time
+224744,https://api.aircall.io/v1/users/224744,Stefano  Perrotta,stefano+demo@aircall.io,false,available,2018-08-24T17:08:26.000Z,Europe/Paris,en-US,30
+224746,https://api.aircall.io/v1/users/224746,Carly Dell,carly+hubspot@aircall.io,true,available,2018-08-24T17:49:23.000Z,Etc/UTC,en-US,0
+224748,https://api.aircall.io/v1/users/224748,Michael Jordan,stefano+mj@aircall.io,false,unavailable,2018-08-24T18:18:41.000Z,Etc/UTC,en-US,0
+239735,https://api.aircall.io/v1/users/239735,Max Paul,stefano+sfdc@aircall.io,false,custom,2018-11-14T22:14:16.000Z,Etc/UTC,en-US,0
+239924,https://api.aircall.io/v1/users/239924,Mister HubSpot,stefano+mister@aircall.io,false,available,2018-11-15T15:19:42.000Z,Etc/UTC,en-US,0
+239933,https://api.aircall.io/v1/users/239933,Max Sales,stefano+salesforce@aircall.io,false,available,2018-11-15T15:35:05.000Z,Etc/UTC,en-US,0
+292711,https://api.aircall.io/v1/users/292711,Stefano HsDemo,stefano+hsdemo@aircall.io,false,available,2019-07-19T07:11:37.000Z,Etc/UTC,en-US,0
+347634,https://api.aircall.io/v1/users/347634,test HubSpot,stefano+dev@aircall.io,false,available,2019-12-09T14:03:50.000Z,Etc/UTC,en-US,0
+406958,https://api.aircall.io/v1/users/406958,Paul Demo,paul+hubspotdemo@aircall.io,false,available,2020-05-05T16:35:18.000Z,Etc/UTC,en-US,0
+409289,https://api.aircall.io/v1/users/409289,Eddie MBANI,eddie+demo@aircall.io,false,unavailable,2020-05-12T13:15:15.000Z,Etc/UTC,en-US,0
+505198,https://api.aircall.io/v1/users/505198,Brian Gallagher,bgallagher+demo@hubspot.com,false,unavailable,2020-11-24T15:32:59.000Z,Etc/UTC,en-US,0
+528587,https://api.aircall.io/v1/users/528587,Johann Demp,johann+demo1@aircall.io,false,available,2021-01-12T07:51:04.000Z,Etc/UTC,en-US,0
+530103,https://api.aircall.io/v1/users/530103,Martin Dizon Demo,martin.dizon+demo@aircall.io,true,available,2021-01-14T10:49:57.000Z,Europe/Paris,en-US,0
+550107,https://api.aircall.io/v1/users/550107,Martin DDizon,martin.dizon+demo2@aircall.io,false,available,2021-02-17T11:15:06.000Z,Etc/UTC,en-US,0
+550152,https://api.aircall.io/v1/users/550152,Martin DDDizon,martin.dizon+demo3@aircall.io,false,available,2021-02-17T13:53:52.000Z,Etc/UTC,en-US,0
+599798,https://api.aircall.io/v1/users/599798,Matt Test Demo,matt+test123@aircall.io,false,available,2021-06-03T15:22:36.000Z,Etc/UTC,en-US,0
+620938,https://api.aircall.io/v1/users/620938,Rory MacPherson,rory+3@aircall.io,false,available,2021-07-19T09:35:04.000Z,Etc/UTC,en-US,0
+632456,https://api.aircall.io/v1/users/632456,se  demo,hiba.regaya+sedemo@aircall.io,false,available,2021-08-12T16:15:50.000Z,Europe/Paris,en-US,0
+632457,https://api.aircall.io/v1/users/632457,Patrick Penna 009,patrick.penna+sedemo@aircall.io,true,available,2021-08-12T16:16:50.000Z,America/Sao_Paulo,en-US,5
+632833,https://api.aircall.io/v1/users/632833,Patrick Penna 010,patrick.penna+sedemo1@aircall.io,false,available,2021-08-13T12:42:31.000Z,Etc/UTC,en-US,0
+632834,https://api.aircall.io/v1/users/632834,Patrick Penna 011,patrick.penna+sedemo2@aircall.io,false,available,2021-08-13T12:43:24.000Z,Etc/UTC,en-US,0
+634893,https://api.aircall.io/v1/users/634893,Benjamin D,benjamin+test@aircall.io,false,unavailable,2021-08-18T07:45:25.000Z,Europe/Paris,en-US,0
+635005,https://api.aircall.io/v1/users/635005,test demo,hiba.regaya+testdemo@aircall.io,false,custom,2021-08-18T10:01:20.000Z,Europe/Paris,en-US,0
+635544,https://api.aircall.io/v1/users/635544,Ben Transfer Test,benjamin+test6@aircall.io,false,unavailable,2021-08-19T09:05:17.000Z,Etc/UTC,en-US,0
+657908,https://api.aircall.io/v1/users/657908,Dev Team,devecosystem+seteam@aircall.io,false,available,2021-09-29T12:31:16.000Z,Etc/UTC,en-US,0
+683238,https://api.aircall.io/v1/users/683238,Solutions Engineering,solutions-engineering@aircall.io,false,unavailable,2021-11-12T16:24:36.000Z,Etc/UTC,en-US,0
+699886,https://api.aircall.io/v1/users/699886,RMA Permanence ,hiba.regaya+test123@aircall.io,false,custom,2021-12-12T16:58:28.000Z,Europe/Paris,en-US,0
+721546,https://api.aircall.io/v1/users/721546,Martin Dizon6,martin.dizon+demo6@aircall.io,false,available,2022-01-24T10:42:09.000Z,Etc/UTC,en-US,0
+722461,https://api.aircall.io/v1/users/722461,Martin Dizon7,martin.dizon+demo7@aircall.io,false,available,2022-01-25T08:39:48.000Z,Etc/UTC,en-US,0
+724349,https://api.aircall.io/v1/users/724349,Tiffany  Hu,tiffany.hu+demo@aircall.io,false,available,2022-01-27T10:26:05.000Z,Etc/UTC,en-US,0
+731416,https://api.aircall.io/v1/users/731416,Koen Verduijn SE,koen.verduijn+demo@aircall.io,false,available,2022-02-07T12:51:02.000Z,Etc/UTC,en-US,90
+736640,https://api.aircall.io/v1/users/736640,Koen Test RrNuYErJ74,koen.verduijn+v5doewlrdy@aircall.io,true,available,2022-02-14T16:49:46.000Z,Etc/UTC,en-US,0
+736705,https://api.aircall.io/v1/users/736705,Koen Test Pf0kD9FhsU,koen.verduijn+qx8gnk7jfm@aircall.io,false,available,2022-02-14T17:32:12.000Z,Etc/UTC,en-US,0
+736706,https://api.aircall.io/v1/users/736706,Koen Test YOxzdTso9b,koen.verduijn+swycsgwfns@aircall.io,false,available,2022-02-14T17:32:26.000Z,Etc/UTC,en-US,0
+749200,https://api.aircall.io/v1/users/749200,Koen Test a3QqjuNb2h,koen.verduijn+ihdvndic5d@aircall.io,false,available,2022-03-04T13:17:21.000Z,Etc/UTC,en-US,0

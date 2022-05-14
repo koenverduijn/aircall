@@ -1,0 +1,86 @@
+.headerGrid {
+  position: fixed;
+  inset: 0 0 auto 15vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #d9d9d6;
+  background-color: #ffffff;
+  z-index: 1;
+  color: #74787d;
+}
+.titleDiv {
+  position: fixed;
+  display: inline-flex;
+  align-items: center;
+  top:0;
+  left:20vw;
+  width: 50vw;
+  height: 5vh;
+}
+.titleItem {
+  display:inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 3vh;
+}
+.accent {
+  color: orange;
+  display: inline;
+}
+.loginDiv {
+  position: fixed;
+  top: 0;
+  left:70vw;
+  width: 20vw;
+  display: inline-flex;
+  align-items: center;
+  height: 5vh;
+}
+.loginColumns {
+  display: block;
+  font-size: 0;
+  align-items: top;
+  height: 3vh;
+}
+.loginRow{
+  display: flex;
+  height: 1.5vh;
+}
+.inputLabel {
+  width: 5vw;
+  text-align: left;
+  height: 1vh;
+  font-size: 1vh;
+}
+.inputValue {
+  width: 15vw;
+  height: 1vh;
+  font-size: 0.8vh;
+  text-align: left;
+  z-index: 1;
+}
+.connectDiv {
+  position: fixed;
+  top:0;
+  left:90vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 10vw;
+  color: #74787d;
+}
+.btnConnect {
+  border: 1px solid #74787d;
+  border-radius: 10%;
+  width: 8vw;
+  height: 3vh;
+}
+.btnConnect {
+  cursor: pointer;
+}
