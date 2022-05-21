@@ -209,6 +209,7 @@ export const menuItems = [
     logo: UserLogo,
     submenu: [
       { name: 'Contact Created', id: 'contact.created', method:'PATCH', url: './data.contact'},
+      { name: 'Contact Updated', id: 'contact.updated', method:'PATCH', url: './data.contact'},
       { name: 'Contact Deleted', id: 'contact.deleted', method:'PATCH', url: './data.contact'},
     ]
   }

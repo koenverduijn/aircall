@@ -12,9 +12,9 @@ const Navigation = () => {
   const result = useState();
   // switch API and webhook
   const [apiSwitch,setApiSwitch] = useState({display:'inline-flex'});
-  const [webhookSwitch,setWebhookSwitch] = useState({display:'none'});
+  const [webhookSwitch,setWebhookSwitch] = useState({display:'inline-flex'});
   const [toggleApi,setToggleApi] = useState(true);
-  const [toggleWebhook,setToggleWebhook] = useState(false);
+  const [toggleWebhook,setToggleWebhook] = useState(true);
   function switchToggle(toggle) {
     if(toggle === 'api') {
       if(toggleApi === false) {

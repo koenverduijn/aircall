@@ -35,7 +35,7 @@ const MenuItems = ({ items,apiToggle,webhookToggle }) => {
           <p style={items.type == 'webhook' ? ({fontStyle:'italic'}):({})}>{items.title}</p>
         </Link>
       }
-      {(items.submenu != null && hideSubItems) ? (
+      {(items.id ==='services' && items.submenu != null && hideSubItems) ? (
         <SubItems key='' submenus={items.submenu} items={items} showItems={toggleSubItems}/>
       ) : (
         <>

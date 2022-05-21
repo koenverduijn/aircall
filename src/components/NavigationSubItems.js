@@ -14,7 +14,6 @@ function methodColor(submenu) {
 const SubItems = ({ submenus,items,showItems }) => {  
   const [result,setResult] = useState();
   function showNavigation(items){
-    console.log(items.id);
     window.localStorage.setItem('navSubItem',items)
   };
   return (
