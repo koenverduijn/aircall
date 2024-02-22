@@ -1,4 +1,6 @@
 const path = require('path');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   entry: [ "@babel/polyfill", path.resolve(__dirname, './src/main.js')],
@@ -27,13 +29,25 @@ module.exports = {
           { loader: 'css-loader' }
       ]
       },
+      {
+        test: /\.html$/,
+        exclude: [/node_modules/, require.resolve('./public/index.html')],       
+        use: [
+          {
+            loader: "html-loader",
+            options: {
+                name: '[name].[ext]'
+            },
+          }
+        ]
+      }
     ],
   },
   resolve: {
     extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: path.resolve(__dirname, './public'),
+    path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
     publicPath: '/'
   },
@@ -41,4 +55,14 @@ module.exports = {
     static: path.resolve(__dirname, './public'),
     historyApiFallback: true,
   },
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()],
+  },
+  plugins: [
+    new HtmlWebPackPlugin({
+      template: "./public/index.html",
+      filename: "./index.html"
+    })
+  ]
 };

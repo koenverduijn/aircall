@@ -1,15 +1,12 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { useState } from 'react';
 import '../styles/navigation.css';
 import Switch from 'react-switch';
 
 import { menuItems } from '../navigationItems';
 import MenuItems from './NavigationItems';
-import Console from './Console';
 
 const Navigation = () => {
-  const result = useState();
   // switch API and webhook
   const [apiSwitch,setApiSwitch] = useState({display:'inline-flex'});
   const [webhookSwitch,setWebhookSwitch] = useState({display:'inline-flex'});
